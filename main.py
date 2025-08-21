@@ -5,8 +5,8 @@ from data_manager import DataManager
 from flight_search import FlightSearch
 from notification_manager import NotificationManager
 
-API_KEY="54LnoiZ5pVEIHUy3AhwNcLwgDh47Ytl1"
-API_SECRET="A9Gr4lMCHQsNdr3A"
+API_KEY="YOUR API KEY"
+API_SECRET="API PASSWORD"
 
 ORGIN_CITY_DATA="LON"
 
@@ -67,4 +67,5 @@ for destination in sheet_data:
         notification.send_sms(message_body=message)
 
         for email in customer_email_list:
+
             notification.send_email(receiver_email=email, message=message)
