@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime
 
-FLIGHT_API_KEY="YiniBTMsMvAO15I55EhCf6jrzhI2Wvnv"
-FLIGHT_SECRET_KEY="oYu8zEmdRtlr4oyE"
+FLIGHT_API_KEY="API KEY"
+FLIGHT_SECRET_KEY="API PASSWORD"
 
 
 class FlightSearch:
